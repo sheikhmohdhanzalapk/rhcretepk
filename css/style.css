@@ -291,6 +291,9 @@ ul {
   display: flex;
   gap: 20px;
 
+  & a {
+    color: black;
+  }
   & .info-box-subtitle {
     margin-bottom: 0;
   }
