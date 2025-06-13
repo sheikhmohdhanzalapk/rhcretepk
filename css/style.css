@@ -178,10 +178,18 @@ ul {
 .home header .main_header_bottom .social ul li a .fa-facebook-f{
   font-size: 20px;
 }
+
+/* .home header .main_header_bottom .social ul li a {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 /* main_header_bottom */
-.home .main_header_bottom{
+/* .home .main_header_bottom{
   padding-bottom: 10px;
-}
+} */
 .home .main_header_bottom .logo {
   width: 33%;
 }
@@ -216,6 +224,17 @@ ul {
   margin-right: 25px;
   white-space: nowrap;
 
+}
+
+.home .info-box-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.home .info-box-title {
+  margin-bottom: 0;
 }
 
 .home .main_header_bottom .links ul li p {
@@ -271,6 +290,10 @@ ul {
 .home .main_header_bottom .main_header_bottom_numbers{
   display: flex;
   gap: 20px;
+
+  & .info-box-subtitle {
+    margin-bottom: 0;
+  }
 }
 .home .main_header_bottom_2 .links_ ul li a:hover {
   color: #fff;
